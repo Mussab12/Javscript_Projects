@@ -1,0 +1,23 @@
+/* Utilities */
+.flex {
+    display: flex;
+    
+}
+.align-item-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-evenly{
+    justify-content: space-evenly;
+}
+.center {
+    text-align: center;
+}
+.btn{
+    border: 1px solid black;
+    padding: 1pc 2pc;
+    border-radius: 1pc;
+    cursor: pointer;
+}

@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+  
+height: 100vh;
+
+    background: url("../photo-1671725779279-a8e497f1bfec.avif") no-repeat center center/cover;
+opacity: 0.8;
+}
+.banner{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 122px auto;   
+    border-radius: 20px;
+    max-width: 500px;
+    height: 200px;
+}
+.banner h1 {
+    padding: 10px;
+}
+.banner button{
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.modal-container h3{
+    padding: 10px;
+}
+.modal-container{
+    display: none
+}
+.show-modal {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 127px;
+    right: 436px;
+    background-color: white;
+    width: 430px;
+    height: 186px;
+    margin-left: auto;
+    margin-right: auto;
+}

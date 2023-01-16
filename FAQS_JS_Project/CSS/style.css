@@ -1,0 +1,37 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.question {
+    background: white;
+    max-width: 500px;
+    border-radius: 10px;
+    margin: 16px auto;
+    padding: 10px;
+}
+.question-title {
+    display: flex;
+    margin: 20px 10px;
+}
+
+body {
+    background: #80808026;
+}
+.minus-icon {
+    display: none;
+}
+.question-text{
+    display: none;
+}
+.show-text .plus-icon{ 
+    display: none;
+}
+.show-text .minus-icon{
+    display: inline;
+}
+.show-text .question-text {
+    display: block;
+}
